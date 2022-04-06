@@ -1,0 +1,5 @@
+﻿  MOC mainwindow.h
+  The system cannot find the path specified.
+  UIC mainwindow.ui
+  The system cannot find the path specified.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(209,5): error MSB6006: "cmd.exe" exited with code 3.

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>357</width>
+                <height>116</height>
+            </rect>
+        </property>
+        <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+            </sizepolicy>
+        </property>
+        <property name="windowTitle">
+            <string>App-NI-DAQ</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QPushButton" name="_startDaqBtn">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>53</y>
+                        <width>91</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Start DAQ (S)</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="_stopDaqBtn">
+                <property name="geometry">
+                    <rect>
+                        <x>140</x>
+                        <y>53</y>
+                        <width>91</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Stop DAQ (T)</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="_daqInfoLabel">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>10</y>
+                        <width>191</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string />
+                </property>
+            </widget>
+            <widget class="QPushButton" name="_showSettingsBtn">
+                <property name="geometry">
+                    <rect>
+                        <x>250</x>
+                        <y>53</y>
+                        <width>81</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Settings (C)</string>
+                </property>
+            </widget>
+            <zorder>_stopDaqBtn</zorder>
+            <zorder>_startDaqBtn</zorder>
+            <zorder>_daqInfoLabel</zorder>
+            <zorder>_showSettingsBtn</zorder>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>357</width>
+                    <height>21</height>
+                </rect>
+            </property>
+        </widget>
+    </widget>
+    <resources />
+    <connections />
+</ui>

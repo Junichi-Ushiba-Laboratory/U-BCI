@@ -1,0 +1,6 @@
+gitignore_dir/*
+.DS_Store
+
+LSL/
+boost_1_77_0/
+
