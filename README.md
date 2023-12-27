@@ -3,6 +3,7 @@
 U-BCI is the integrated system that collects bio-signal data (EEG, eye tracking data, Hand kinematics etc.) synchronously using Lab Streaming Layer (LSL).
 Please check the [guidebook](https://docs.google.com/document/d/1bhhI95ILIQAwalakF6iXgKjvT8xTE3FMfh2FEUU6zqo/edit?usp=sharing) for more information.
 
+paper [https://doi.org/10.1016/j.neures.2023.12.003]
 
 ```
 Seitaro Iwama, Mitsuaki Takemi, Ryo Eguchi, Ryotaro Hirose, Masumi Morishige, Junichi Ushiba,
